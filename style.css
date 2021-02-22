@@ -1,0 +1,35 @@
+.origami{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header a{
+
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(228, 230, 235);
+    color: red;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+a:hover{
+    opacity: 0.8;
+}
+
+.grid{
+    display: inline-block;
+    width:50%;
+    justify-content: space-evenly;
+    border: dashed;
+    margin:10px;
+    
+}
+
+h1{
+   text-align: center;
+}
